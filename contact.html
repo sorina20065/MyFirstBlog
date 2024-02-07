@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel=stylesheet href="mystyle.css">
+</head>
+<body>
+
+    <header>
+        <div class="subscribe">
+            <form>
+                <input type="email" placeholder="Enter your email here!">
+                <button type="submit">Subscribe to my blog</button>
+            </form>
+        </div>
+    </header>
+
+
+
+    <div class="menu" onclick="openArticles()">ALL ATRICLES</div>
+    <div class="menu" onclick="openReviews()">REVIEWS</div>
+    <div class="menu" onclick="openContact()">CONTACT</div>
+
+        <div class="container">
+            <form>
+                <label>FIrst Name: </label> <input type="text" placeholder="Your name">
+                <label>Last Name: </label>  <input type="text" placeholder="Your last name:">
+                <label>Country: </label> 
+                <select>
+                    <option>Romania</option>
+                    <option>Poland</option>
+                    <option>Germany</option>
+                </select>
+
+                <label>Subject:</label> <textarea placeholder="Write something here:" style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+           
+            </form>
+
+        </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
